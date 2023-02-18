@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Heart Stroke Detection</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="./static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./static/css2/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+<body>
+
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">Stroke Detection</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Predict the probability of Heart Stroke Occurence
+        <br>
+        </h5>
+      </div>
+
+              <div class="row">
+                <form action='/predict' method="POST" class="col s12">
+                  <div class="row">
+                    
+                    <div class="input-field col s4">
+                      <label for="first_name"><b>Gender</b></label>
+                      <br>
+                    <input   id="first_name" name='gender'type="text" placeholder="Male,Female or Other"class="validate">
+                  </div>
+
+                    <div class="input-field col s4">
+            
+                      <label for="last_name"><b>Age </b></label>
+                        <br>
+                      <input id="last_name"  name="age" placeholder="20" type="text" class="validate">
+            
+                    </div>
+            
+                    <div class="input-field col s4">
+                      <label for="last_name"><b>Hypertension</b></label>
+                      <br>
+                    <input id="last_name"  name="Hypertension" placeholder="0 for No 1 for Yes" type="text" class="validate">
+            
+                    </div>
+            
+                    <div class="input-field col s4">
+                      <label for="last_name"><b>Heart-disease</b></label>
+                      <br>
+                    <input id="last_name"  name="Heart-disease" placeholder="0 for No 1 for Yes" type="text" class="validate">
+            
+                    </div>
+
+                    <div class="input-field col s4">
+                      <label for="last_name"><b>Ever married</b></label>
+                      <br>
+                    <input id="last_name"  name="Ever married" placeholder="Yes/No" type="text" class="validate">
+            
+                    </div>
+
+                    <div class="input-field col s5">
+                      <label for="last_name"><b>Work Type</b></label>
+                      <br>
+                    <input id="last_name"  name="Work Type" placeholder="Private, Self-employed, Govt_job, children, Never_worked"  type="text" class="validate">
+            
+                    </div>
+                    
+
+                    <div class="input-field col s4">
+                      <label for="last_name"><b>Avg glucose level</b></label>
+                      <br>
+                    <input id="last_name"  name="Avg glucose level" placeholder="171.12" type="text" class="validate">
+            
+                    </div>
+
+                    <div class="input-field col s4">
+                      <label for="last_name"><b>Bmi</b></label>
+                      <br>
+                    <input id="last_name"  name="Bmi" type="text" placeholder="28.6" class="validate">
+            
+                    </div>
+                  
+
+                    
+
+                    
+                    <div class="input-field col s4">
+                      <label for="last_name"><b>Smoking Status</b></label>
+                      <br>
+                    <input id="last_name"  name="Smoking Status" placeholder="formerly smoked, never smoked, smokes" type="text" class="validate">
+            
+                    </div>
+            
+            
+            
+                  </div>
+            
+                  <div class="row center">
+            
+                      <button type="submit" class="btn-large waves-effect waves-light orange">Predict Probability</button>
+                  </div>
+                </form>
+      </div>
+
+      <br>
+        {{pred}}<br>
+
+    </div>
+  </div>
+
+
+    <br><br>
+  </div>
+  </div>>
+
+  
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src=".js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
+
