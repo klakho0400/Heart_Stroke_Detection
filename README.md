@@ -3,10 +3,10 @@ A website that predicts the probability of a heart stroke taking place based on 
 
 Dataset used:- https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 
-Acc = 0.9511
+Acc = 0.9511 (Random Forest Classifier)
 
 Model_Notebook.ipynb => Jupyter Notebook used to preprocess dataset, train and export model.
 
-Website made using Flask, materialize css, HTML.
+Website made using Flask, materialize CSS, HTML.
 
 <img width="1051" alt="image" src="https://user-images.githubusercontent.com/54429035/219909175-0e78a181-8eca-48cb-9d96-7502c58302e9.png">
