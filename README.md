@@ -5,7 +5,7 @@ Dataset used:- https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dat
 
 Acc = 0.9511 (Random Forest Classifier)
 
-[a link](https://github.com/klakho0400/Heart_Stroke_Detection/Model_Notebook.ipynb) Model_Notebook.ipynb => Jupyter Notebook used to preprocess dataset, train and export model.
+[Model_Notebook.ipynb](https://github.com/klakho0400/Heart_Stroke_Detection/blob/main/Model_Notebook.ipynb) => Jupyter Notebook used to preprocess dataset, train and export model.
 
 Website made using Flask, materialize CSS, HTML.
 
