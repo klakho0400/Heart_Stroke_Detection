@@ -1,4 +1,4 @@
-# Heart_Stroke_Detection
+# Stroke Scope
 A website that predicts the probability of a heart stroke taking place based on age,bmi,etc. using Machine Learning Classifier.
 
 Dataset used:- https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
